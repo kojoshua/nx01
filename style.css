@@ -22,18 +22,28 @@
   font-style: normal;
 }
 
+.rubik-900{
+      font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
 main{
     margin:auto;
 }
 #buy{
     width:2%;
     float: right;
+    position:sticky;
+    top:0;
 }
 
 #logo{
-    width: 10%;
+    width: 15%;
     margin-top: 0%;
     padding: 0;
+    position:sticky;
+    top:0;
     
 }
  
@@ -72,5 +82,12 @@ p{
     text-align: center;
     padding: 10;
     margin: 10px;
+
+}
+
+.categories{
+   color: white;
+   padding: 5px;
+   margin: 10px;
 
 }
