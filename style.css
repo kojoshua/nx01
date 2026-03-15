@@ -7,7 +7,18 @@
     box-sizing: border-box;
 }
 
+:root{
+    scroll-behavior: smooth;
+}
+
 /*Fonts*/
+.rubik-100 {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
 .rubik-500 {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
@@ -32,9 +43,9 @@ main{
     margin:auto;
 }
 #buy{
-    width:2%;
+    width:4%;
     float: right;
-    position:sticky;
+    position:static;
     top:0;
 }
 
@@ -44,6 +55,7 @@ main{
     padding: 0;
     position:sticky;
     top:0;
+    position: fixed;
     
 }
  
@@ -88,6 +100,11 @@ p{
 .categories{
    color: white;
    padding: 5px;
-   margin: 10px;
+   margin: 15px;
 
+}
+
+#foot{
+    color: rgb(78, 77, 77);
+    font-weight: lighter;
 }
